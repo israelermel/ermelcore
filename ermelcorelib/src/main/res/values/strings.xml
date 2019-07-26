@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">ErmelCoreLib</string>
+    <string name="text_aguarde">Aguarde...</string>
+    <string name="exception_message_generic">Houve uma falha inesperada. Por favor tente novamente</string>
+    <string name="exception_user_firebase_not_found">Usuario nao encontrado</string>
+    <string name="action_dl_cancel">Cancelar</string>
+    <string name="dl_title_password_reset">Recupera senha</string>
+    <string name="email">E-mail</string>
+    <string name="msg_invalid_login">Login Invalido</string>
 </resources>
