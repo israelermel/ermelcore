@@ -2,15 +2,10 @@ package br.com.israelermel.ermelcorelib.interfaces;
 
 import android.app.Activity;
 
-import br.com.israelermel.core.utils.DialogsUtils;
-import br.com.israelermel.core.utils.FragmentProvider;
-import br.com.israelermel.core.utils.LogProvider;
-import br.com.israelermel.core.utils.Navigator;
-import br.com.israelermel.core.utils.ResourceProvider;
+import br.com.israelermel.ermelcorelib.utils.DialogsUtils;
 import io.reactivex.disposables.Disposable;
 
 public interface IViewModel<T extends BaseDao, E extends MessageException, N extends Navigator> {
-    ResourceProvider getResource();
 
     LogProvider getLog();
 
